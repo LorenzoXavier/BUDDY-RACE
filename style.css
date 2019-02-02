@@ -1,0 +1,21 @@
+/* Your board style here */
+.racer_table td {
+  height: 40px;
+  width: 40px;
+  outline: solid;
+  outline-color: grey;
+  background-size: cover;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/george.jpg");
+}
+#player2_race td.active {
+  background-image: url("images/lorenzo.jpg");
+}
+.finish {
+  background-image: url("images/finish.jpeg");
+}
